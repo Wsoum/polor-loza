@@ -1,0 +1,13 @@
+import 'polor.loza'
+
+use polor
+
+# old version #
+# println $FgBlue + 'Loza'
+# println $BgHiGreen + $FgHiBlack + 'programming' + $Reset
+# println $Bold + 'language'
+
+# new version #
+println $ftc->Blue + 'Loza'
+println $bhitc->HiGreen + $fhitc->HiBlack + 'programming' + $ba->Reset
+println $ba->Bold + 'language'
